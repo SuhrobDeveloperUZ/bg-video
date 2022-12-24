@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.download>a {
+    background: linear-gradient(180deg, #084356 0%, #022032 100%);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5B5A5B;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.7);
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download:hover {
+    border: 1px solid #00FF94;
+    border-radius: 4px;
+}
+
+.bg-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 1366px;
+    height: 768px;
+}
